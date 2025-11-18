@@ -8,7 +8,7 @@ function genRandomInt(max) {
 }
 
 const Header = () => {
-  console.log(`this is reactImg variable: ${reactImg} `);
+  console.log("header component is rendered");
   const description = reactDescriptions[genRandomInt(2)];
   return (
     <header>
