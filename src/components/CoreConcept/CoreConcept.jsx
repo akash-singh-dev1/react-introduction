@@ -1,5 +1,3 @@
-import React from "react";
-
 const CoreConcept = (props) => {
   console.log(`CoreConcept component is rendered for the ${props.title}`);
   return (
